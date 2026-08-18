@@ -368,6 +368,7 @@ namespace carl
                     case BITVECTOR:
                     // Uninterpreted Theory
                     case UEQ:
+                    case AUX_EXISTS:
                         assert(false); break;
                 }
                 return nullptr;
