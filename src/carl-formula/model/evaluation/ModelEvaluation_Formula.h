@@ -119,6 +119,7 @@ namespace model {
 				break;
 			}
 			case FormulaType::EXISTS:
+			case FormulaType::AUX_EXISTS:
 				CARL_LOG_WARN("carl.model.evaluation", "Evaluation of exists not yet implemented.");
 				break;
 			case FormulaType::FORALL:

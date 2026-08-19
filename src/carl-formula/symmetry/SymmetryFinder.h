@@ -128,6 +128,7 @@ class GraphBuilder {
 				break;
 			}
 			case carl::FormulaType::EXISTS:
+			case carl::FormulaType::AUX_EXISTS:
 			case carl::FormulaType::FORALL:
 			case carl::FormulaType::TRUE:
 			case carl::FormulaType::FALSE:
